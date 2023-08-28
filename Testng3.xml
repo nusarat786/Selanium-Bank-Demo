@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="InetBankingV1">
+
+<listeners>
+		<listener class-name="com.inetbanking.utilities.Reporting" />
+		
+	</listeners>
+
+
+	<test name="BankingApp Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			
+		
+	
+	   <class name="com.inetbanking.testCases.TC_LoginTest_001" />
+		  	  
+	 
+		<class name="com.inetbanking.testCases.TC_AddCustomerTest_003" />
+ 		
+		 
+		<class name="com.inetbanking.testCases.TC006_Edit_Customer" />
+	  
+	  
+	 	<!-- <class name="com.inetbanking.testCases.TC008_Delete_Customer"/>
+	    -->
+	  
+	  	<class name="com.inetbanking.testCases.TC00_10_New_Account_Test" />
+	   
+	 
+	<!--	<class name="com.inetbanking.testCases.TC00_12_Edit_Account" />
+   -->
+	 	
+	 <!-- 	<class name="com.inetbanking.testCases.TC_0013_Delete_Account_Test" />
+   -->
+	
+	
+	    <class name="com.inetbanking.testCases.TC_0015_Money_Withdrawal" />
+	  
+	<!-- 
+	  	<class name="com.inetbanking.testCases.TC_0017_Deposite_Money_Test" />
+ -->
+
+	 <!--  	<class name="com.inetbanking.testCases.TC_0019_Fund_Transfer_Test" />
+	 -->
+	 	
+	 	<class name="com.inetbanking.testCases.TC_0021_Balance_Enquiry_Test" />
+	  
+	 
+	 	<!-- <class name="com.inetbanking.testCases.TC_0023_Mini_Statement_Test" />
+	    -->
+		
+		<class name="com.inetbanking.testCases.TC_0025_Customized_Statement_Test" />
+	    
+	 </classes>
+
+	</test>
+
+</suite>

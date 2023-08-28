@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="InetBankingV1">
+
+<listeners>
+		<listener class-name="com.inetbanking.utilities.Reporting" />
+	</listeners>
+
+
+	<test name="BankingApp Test">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			
+	 	
+	  	<class name="com.inetbanking.testCases.TC_LoginTest_001" />
+		
+		<class name="com.inetbanking.testCases.TC_Login_Invalid_Credantial_DDT_002" />
+		 
+			
+		<!--  <class name="com.inetbanking.testCases.TC_AddCustomerTest_003" />
+ 		 --> 	
+   
+  	 	<!-- <class name="com.inetbanking.testCases.TC_Add_Customer_Inavlid_Values_004" />
+
+	 -->
+	 
+<!-- 	<class name="com.inetbanking.testCases.TC005_Edit_Customer_Scearch" />
+
+ -->	
+
+ 	
+ 	
+ 	<!-- 	<class name="com.inetbanking.testCases.TC006_Edit_Customer" />
+  	 -->
+ 	
+ 	<!--
+ 	 <class name="com.inetbanking.testCases.TC_007_Edit_Customer_InvalidValues" />
+	 -->
+	  
+	<!-- <class name="com.inetbanking.testCases.TC008_Delete_Customer"/>
+	  --> 
+	<!-- <class name="com.inetbanking.testCases.TC_0009_Delete_Customer_Invalid_Input" />
+	 -->
+	 
+	<!--  <class name="com.inetbanking.testCases.TC00_10_New_Account_Test" />
+	 --> 
+	 
+
+	<!--  <class name="com.inetbanking.testCases.TC00_11_New_Account_Invalid_Value" />
+ -->
+	
+	<!-- 	 
+	<class name="com.inetbanking.testCases.TC00_12_Edit_Account" />
+ 
+	 -->
+	 
+	<!--  
+	
+	<class name="com.inetbanking.testCases.TC_0013_Delete_Account_Test" />
+	 --> 
+	<!-- 
+	  <class name="com.inetbanking.testCases.TC_0014_Delete_Account_InavalidValue_Test" />
+	 -->
+	
+	<!--  <class name="com.inetbanking.testCases.TC_0015_Money_Withdrawal" />
+	 -->
+	 
+	 
+<!-- 	<class name="com.inetbanking.testCases.TC_0016_Money_Widrawal_Invalue_Valid_Test" />
+	 -->
+	
+	<!--  <class name="com.inetbanking.testCases.TC_0017_Deposite_Money_Test" />
+	 -->
+	
+	 
+	<!-- <class name="com.inetbanking.testCases.TC_0018_Deposite_Invalid_Value_Test_Case" />
+	 -->
+	 
+	 
+	<!--  <class name="com.inetbanking.testCases.TC_0019_Fund_Transfer_Test" />
+	  -->
+	
+  <!--  <class name="com.inetbanking.testCases.TC_0020_Fund_Transfer_Invalid_Value_Test" />
+	 --> 
+	
+	<!--   <class name="com.inetbanking.testCases.TC_0021_Balance_Enquiry_Test" />
+	 -->
+	 
+	<!-- <class name="com.inetbanking.testCases.TC_0021_Balance_Enquiry_Test" />
+	 -->  
+	  
+<!-- 	 <class name="com.inetbanking.testCases.TC_0022_Balanace_Enquiry_Invalid_Test_Case" />
+	 --> 
+	 
+	
+ <!-- 	<class name="com.inetbanking.testCases.TC_0023_Mini_Statement_Test" />
+	 
+	 -->
+	
+ 	<!-- <class name="com.inetbanking.testCases.TC_0024_Mini_Statement_Invalid_Value_Test" />
+	 --> 
+	 
+	 
+<!-- 	 <class name="com.inetbanking.testCases.TC_0025_Customized_Statement_Test" />
+	 --> 
+	 
+
+<!-- 	<class name="com.inetbanking.testCases.TC_0026_Customized_Statement_Invalid_Value_Test" />
+	 --> 
+	 
+	 </classes>
+
+	</test>
+
+</suite>

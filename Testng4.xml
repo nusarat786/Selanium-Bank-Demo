@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="InetBankingV1">
+
+<listeners>
+		<listener class-name="com.inetbanking.utilities.Reporting2" />
+	</listeners>
+
+
+	<test name="BankingApp Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			
+	 	
+	 <!-- 
+		 <class name="com.inetbanking.testCases.TC_Login_Invalid_Credantial_DDT_002" /> 
+		 --> 
+		
+	
+		<class name="com.inetbanking.testCases.TC_0020_Fund_Transfer_Invalid_Value_Test" />
+			 
+			
+	 
+	 </classes>
+
+	</test>
+
+</suite>

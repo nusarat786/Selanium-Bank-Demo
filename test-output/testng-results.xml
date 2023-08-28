@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-28T11:55:25Z" name="InetBankingV1" finished-at="2023-08-28T11:57:18Z" duration-ms="112590">
+    <groups>
+    </groups>
+    <test started-at="2023-08-28T11:55:25Z" name="BankingApp Test" finished-at="2023-08-28T11:57:18Z" duration-ms="112590">
+      <class name="com.inetbanking.testCases.TC_LoginTest_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@6973bf95]" started-at="2023-08-28T11:55:25Z" name="setup" finished-at="2023-08-28T11:55:37Z" duration-ms="11731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@6973bf95]" started-at="2023-08-28T11:55:37Z" name="loginTest" finished-at="2023-08-28T11:55:41Z" duration-ms="3613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@6973bf95]" started-at="2023-08-28T11:55:41Z" name="tearDown" finished-at="2023-08-28T11:55:44Z" duration-ms="2930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetbanking.testCases.TC_LoginTest_001 -->
+      <class name="com.inetbanking.testCases.TC_Login_Invalid_Credantial_DDT_002">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_Login_Invalid_Credantial_DDT_002@2ddc8ecb]" started-at="2023-08-28T11:55:44Z" name="setup" finished-at="2023-08-28T11:56:46Z" duration-ms="62693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginInvalidDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_Login_Invalid_Credantial_DDT_002@2ddc8ecb]" started-at="2023-08-28T11:56:48Z" name="loginInvalidDDT" data-provider="LoginData" finished-at="2023-08-28T11:56:53Z" duration-ms="4737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_001_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[All Field Blank Test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[empty]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidDDT -->
+        <test-method signature="loginInvalidDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_Login_Invalid_Credantial_DDT_002@2ddc8ecb]" started-at="2023-08-28T11:56:53Z" name="loginInvalidDDT" data-provider="LoginData" finished-at="2023-08-28T11:56:59Z" duration-ms="5551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_001_2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid username]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mngr8909]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Aa#12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidDDT -->
+        <test-method signature="loginInvalidDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_Login_Invalid_Credantial_DDT_002@2ddc8ecb]" started-at="2023-08-28T11:56:59Z" name="loginInvalidDDT" data-provider="LoginData" finished-at="2023-08-28T11:57:04Z" duration-ms="5245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_001_3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mngr494924]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234578]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidDDT -->
+        <test-method signature="loginInvalidDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_Login_Invalid_Credantial_DDT_002@2ddc8ecb]" started-at="2023-08-28T11:57:04Z" name="loginInvalidDDT" data-provider="LoginData" finished-at="2023-08-28T11:57:11Z" duration-ms="6761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_001_4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[blank username]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[empty]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Aa#12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidDDT -->
+        <test-method signature="loginInvalidDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_Login_Invalid_Credantial_DDT_002@2ddc8ecb]" started-at="2023-08-28T11:57:11Z" name="loginInvalidDDT" data-provider="LoginData" finished-at="2023-08-28T11:57:16Z" duration-ms="5726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_001_5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[blank password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mngr494924]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_Login_Invalid_Credantial_DDT_002@2ddc8ecb]" started-at="2023-08-28T11:57:16Z" name="tearDown" finished-at="2023-08-28T11:57:18Z" duration-ms="1250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetbanking.testCases.TC_Login_Invalid_Credantial_DDT_002 -->
+    </test> <!-- BankingApp Test -->
+  </suite> <!-- InetBankingV1 -->
+</testng-results>
