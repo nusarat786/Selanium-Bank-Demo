@@ -13,7 +13,7 @@ Maven
 Web browser (Chrome recommended)
 Getting Started
 Clone this repository to your local machine using:bash
-Copy code git clone https://github.com/yourusername/demo-bank-test.git
+Copy code git clone https://github.com/nusarat786/Selanium-Bank-Demo
 
 Navigate to the project directory:bash
 Copy code cd demo-bank-test
