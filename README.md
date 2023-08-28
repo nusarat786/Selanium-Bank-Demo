@@ -41,7 +41,7 @@ You can also run specific tests or test classes by configuring the testng.xml fi
 
 <h2>Reports</h2>
 After running tests, HTML reports can be found in the test-output directory. These reports provide detailed information about test execution and results.
-![image](https://github.com/nusarat786/Selanium-Bank-Demo/assets/95936097/f219561e-04b4-4576-be5c-e75feeca39ca)
+ <img src="https://github.com/nusarat786/Selanium-Bank-Demo/assets/95936097/f219561e-04b4-4576-be5c-e75feeca39ca"> 
 
 
 <h2>Recording</h2>
